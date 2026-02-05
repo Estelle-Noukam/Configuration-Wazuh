@@ -1,0 +1,22 @@
+# Secrets
+*.key
+*.pem
+*.crt
+*.p12
+authd.pass
+client.keys
+
+# Logs & data
+logs/
+archives/
+queue/
+var/
+**/*.log
+
+# Runtime
+tmp/
+run/
+
+# OS
+.DS_Store
+Thumbs.db
